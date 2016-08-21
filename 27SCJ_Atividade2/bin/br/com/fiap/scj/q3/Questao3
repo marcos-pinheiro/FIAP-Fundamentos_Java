@@ -1,0 +1,14 @@
+* Pergunta:
+Analise o código abaixo e indique o resultado em de saída em console. Justifique sua resposta.
+
+
+
+
+* Resposta:
+(A) : TRUE;
+	Verdadeiro, pois ChowChow é uma subclasse de Cachorro. Logo a cada instância de ChowChow é criada uma instância de sua superclasse Cachorro.
+	Por isso instanceof confirma que ChowChow é uma instancia Cachorro;
+
+(B) : FALSE;
+	Falso, pois ChowChow é uma sub-classe de Cachorro. Logo a cada instância de Cachorro não se é criada instância ChowChow que é sua subclasse.
+	instanceof só valida quando as hierarquias são de uma especialização (menor) para iguais ou generalizações (maiores) e não o contrário.

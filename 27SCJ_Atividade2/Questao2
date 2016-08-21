@@ -1,0 +1,26 @@
+* Pergunta: 
+Dadas as classes abaixo, analise cuidadosamente as conversões e indique para cada item se a conversão é implícita, 
+explícita ou impossível (erro de compilação).
+
+(A) objeto para equipamento (objeto=equipamento;);
+(B) objeto para móvel (objeto=movel;);
+(C) equipamento para tablet2 (equipamento=tablet2;);
+(D) equipamento para smartphone2 (equipamento=smartphone2;);
+(E) smartphone para tablet (smartphone=tablet;);
+(F) smartphone2 para tablet2 (smartphone2=tablet2;);
+(G) equipamento para tablete (equipamento=(Equipamento) tablet;);
+(H) movel para tablete (movel=(Movel) tablet;);
+(I) tablet para equipamento (tablet=(EquipamentoEletronico) equipamento;);
+
+
+
+* Resposta:
+(A) Implícita;
+(B) Implícita;
+(C) Implícita;
+(D) Implícita;
+(E) Implícita;
+(F) Impossível, erro de compilação;
+(G) Explícita;
+(H) Explícita;
+(I) Explícita;

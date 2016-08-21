@@ -1,0 +1,26 @@
+* Pergunta:
+	Dado o programa abaixo, responda aos questionamentos a seguir, ao final da execução:
+	
+public class StringEx {
+
+	public static void main(String[] args) {
+		String string = "";
+		int z=0;
+		for (int i = 0; i < 12; i++) {
+			z++;
+			string += "string";
+		}
+	}
+}
+
+a. Quantos objetos do tipo String serão criados?
+b. Qual seria a forma mais eficiente de manipular os dados em memória?
+
+
+
+* Resposta:
+(A) => 13 Objetos, 12 Objetos que vem do efeito da concatenação e um objeto com o valor branco;
+
+(B) => Se Usarmos a classe StringBuilder/StringBuffer neste caso teríamos um ganho em memória, já que a StrigBuilder/StringBuffer é uma classe
+	   mutável e as modificações dentro do loop não farão com que novos objetos sejam criados na memória. Como a classe String é imutável, a cada 
+	   concatenação um objeto novo é criado no pool de Strings;
